@@ -1,0 +1,17 @@
+.DS_Store
+*.zip
+*.sqlite3
+venv/*
+temp/*
+.vscode/*
+.idea/
+**/migrations/*
+**/__pycache__/*
+
+django_movie/static/admin/*
+django_movie/static/ckeditor/*
+
+
+!django_movie/static/js/scripts.js
+!django_movie/static/images/star-off-big.png
+!django_movie/static/images/star-on-big.png
